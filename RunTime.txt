@@ -1,0 +1,75 @@
+Time/space complextity 
+
+Run time measurement:
+
+1. Exprimental methods:
+			It is the method which measure the run time of any algorithm, however the time measure may vary from device to device, based on their configurations.
+			Thus, doesn't give constant time measurement. Ex. Run time of an algorithm may be large in low config device, where the run time may be low in high config device.
+2. Analytical/ Asymptotic method:
+			It is the method which measures the run time of any algorithm based on their input size.
+			It also measures the growth rate of running time as the input size in the algorithm. increases.
+			This 
+
+
+Analytical method:
+		....
+		
+		Quadratic Time complexity:
+			Happens during a lot of sorting algorithim O(n^2)
+			Happens during nested for loops
+			polynomial time complexity
+
+		Logarithm Time Complexity: O(logn)
+			Happens when you don't need to travers all the inputs, few or some from given inputs
+			If each time the inputs is divided in to half then there is logn involves, ex binary search
+			
+		Log Linera Time Complexity: O(nlogn)
+			Happens when Logrithm Time Complexity is inside some loops, nested loops
+			liner n + logarthim time = n*logn
+
+		Exponental time complexity:
+			This is worst case to increase power as input is increases,
+			Each time additional value doubles the time/space.
+			O(n^2)/O(n^3)/O(n^m) 
+			
+		Factorial Time Complexity:
+			More than worst Case,
+			Each additional value have to execute upto n! times.. n* n-1* n-2....0
+	
+		Order of BIG O notation:
+			Best to Worst:
+			O(1)   O(logn)    O(n)   O(nlogn)    O(n^2)	O(2^n)	 O(n!)
+			
+
+		Thinking algorithmically is critical programming skill.
+		Learning how to break down a problem into small steps is called Functional Decomposition.
+		Evalute algorithms: 
+			With out O() notaion ew cannot discuss how algorithms compares
+			With out O() can't discuss how much algorithm is efficient.
+		
+		Non polynomial : is hard / Worst Case
+		Ploynomial : easy to solve/ easy/ midium Case
+
+
+Linear Search:
+		Time complexity O(n) as it has to traverse all the elements to get the result.
+
+Binary Search:
+		Time complexity	O(logn) as it divide the elements into half comparing requirments and discard others.
+		Go on and revise Data Structures you practice in Tree Section
+   
+
+
+
+Sorting
+		Bubble Sort:
+			Comparing each adjacent element and shifiting them untill no comparision is left to do.
+
+		Slection Sort:
+			Taking out minimum element position/index and comparing that index's value to every other postion to find the minimum value index.
+			Once the loop is completed comparing all the element, swap the selected minimum index's value with the more minimum value found by comparing.
+			Loop this process untill there is no value left to swapp.
+
+		Insertion Sort:
+			Same as Slection sort but here we take 
+				
